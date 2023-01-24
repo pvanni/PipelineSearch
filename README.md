@@ -8,4 +8,6 @@ This script uses the PipelineSearch package. Need to be set up and ran separatel
 "nested_cv_pipeline.py" stand-alone script used for each ML feature table produced from analyze.py. 
 Requires an feature table where rows are samples and columns are features. Last column needs to be the target variable, which in our case was a binary variable about the samples delivery mode. This script uses joblib to dump each classifier for feature importance calculations or cross-study analyses.
 
-"cross_study
+"cross_study.py" was used to produce the cross-study results. It opens pretrained models from all cohorts and compiles them into an ensemble classifier to predict unknown samples from outside cohorts.
+
+If you are interested in testing these scripts in your own work, please contact the authors of the paper.
