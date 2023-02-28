@@ -1,6 +1,6 @@
 Quick overview of scripts and their usage:
 
-"analyze.py" was used ran to produce all the necessary Qiime2 preprocessing and filtering step up to ML analyses.
+"analyze.py" was used to produce all the necessary Qiime2 preprocessing and filtering step up to ML analyses.
 This script uses the PipelineSearch package. Need to be set up and ran separately for each cohort.
 
 "ML_uniform_checker.py" was used to remove unique features from cohorts, as the cross-study analyses cannot be done if the feature tables are not the same size in all cohorts.
